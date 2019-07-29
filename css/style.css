@@ -1,0 +1,720 @@
+
+/*header css start*/
+
+
+.topbar {
+    background: #aba6a6;
+    height: 41px;
+    top: 0;
+    right: 0;
+
+}
+
+
+.one {
+    text-align: right;
+    padding: 0;
+}
+.topbar a {
+    color: #1c1d1d;
+    text-decoration: none;
+    background-color: #27252500;
+}
+
+.head {
+    top: 41px;
+    right: 0;
+    left: 0;
+    padding: 0;
+    background: #f3eded;
+}
+.one {
+    text-align: right;
+    margin: 8px -1px;
+}
+.two {
+    padding: 6px;
+}
+.fa.fa-facebook-square {
+    margin: 6px -82px;
+    font-size: 24px;
+}
+
+
+.logo {
+    padding: 19px 0;
+}
+nav {
+    padding: 22px 39px;
+}
+nav ul {
+    padding: 7px;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: #0e0e0e;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+}
+.fa.fa-circle {
+    font-size: 9px;
+}
+.btn {
+    font-size: 15px;
+    color: #fff;
+    background: red;
+    padding: 7px 11px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
+/*header css end*/
+/*Banner css start*/
+
+.hero{
+	top: 0;
+}
+
+.banner {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+}
+.title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 186px;
+}
+.title h1 {
+    font-size: 46px;
+    color: #fff;
+}
+.title p {
+    font-size: 23px;
+    color: #fff;
+}
+.btn1 {
+    margin-top: 28px;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    background-color: #eaea0abf;
+    color: #fff;
+    border: 1px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+/*Banner css end*/
+/*About section css start*/
+.icon {
+    padding: 20px;
+}
+.myself {
+    text-align: center;
+    font-size: 17px;
+    padding: 21px;
+    margin: 0 auto;
+    display: block;
+}
+.myself p {
+    margin: -10px;
+}
+.underline {
+    border: 2px solid black;
+    margin: 15px auto;
+    display: block;
+    width: 10%;
+}
+.fa.fa-thumbs-up {
+    font-size: 90px;
+    margin: 16px 105px;
+}
+.fa.fa-book {
+    font-size: 90px;
+    margin: 16px 105px;
+}
+.fa.fa-comments {
+    font-size: 90px;
+    margin: 16px 105px;
+}
+/*About section end*/
+/*Gallery section start*/
+
+.gallery {
+    padding: 25px 0;
+    background: #c1bcbc57;
+}
+.glry-title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+}
+.gone {
+    border: 1px solid white;
+    background: #fff;
+    margin-bottom: 13px;
+}
+.pic1 {
+    width: 90%;
+    height: 235px;
+    position: relative;
+}
+
+.pic1::after {
+    content: "";
+    width: 22%;
+    height: 111px;
+    background: red;
+    position: absolute;
+    top: 52px;
+    right: -4%;
+    border: 1px solid #fff;
+    border-radius: 16px;
+}
+.hint1 {
+    padding: 40px;
+}
+.pp {
+    font-weight: 700;
+    position: absolute;
+    top: 79px;
+    color: #fff;
+    left: 89%;
+    z-index: 111;
+    font-size: 22px;
+}
+.pic2 {
+    width: 90%;
+    height: 235px;
+    position: relative;
+}
+.pic2::after {
+    content: "";
+    width: 22%;
+    height: 111px;
+    background: red;
+    position: absolute;
+    top: 52px;
+    left: -27px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+}
+.pp2 {
+    position: absolute;
+    top: 76px;
+    z-index: 111;
+    left: -2%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+h1.p1 {
+    text-align: right;
+    margin: 14px;
+}
+/*Gallery section end*/
+/*Work section start*/
+
+.work {
+    padding: 25px 0;
+    background: red;
+}
+.work-title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+    color: #fff;
+}
+.underline1 {
+    border: 2px solid #fff;
+    margin: 15px auto;
+    display: block;
+    width: 10%;
+}
+
+.w6 {
+    border: 1px solid #e65454;
+    background: #e65454;
+    width: 100%;
+    height: 253px;
+    color: #fff;
+}
+.w6 p {
+    margin: -51px 54px;
+}
+.w1 {
+    border: 1px solid #e65454;
+    background: #e65454;
+    width: 100%;
+    height: 253px;
+    color: #fff;
+    margin: 0px -13px;
+}
+.w1 p {
+    margin: -51px 54px;
+}
+.w2 {
+    width: 100%;
+    height: 253px;
+}
+.fa.fa-paper-plane {
+    padding: 65px 93px;
+    font-size: 40px;
+}
+/*work section end*/
+/*mailing section start*/
+
+.mail {
+    padding: 20px 0;
+    background: #3cb5e6;
+}
+.mail-title {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+    color: #fff;
+    font-size: 19px;
+}
+.send {
+    background: #fff;
+}
+form {
+    padding: 31px 0;
+}
+input.name {
+    width: 100%;
+    height: 53px;
+    border: 1px solid skyblue;
+}
+input[type="contact no."] {
+    width: 100%;
+    height: 53px;
+    border: 1px solid skyblue;
+    margin: 2px 0;
+}
+input[type="company name"] {
+    width: 100%;
+    height: 53px;
+    border: 1px solid skyblue;
+}
+input.button {
+    margin: 36px 223px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    background: red;
+    border: 1px;
+    border-radius: 9px;
+}
+/*8*/
+
+.contact {
+    padding: 25px 0;
+    background: #382b2b;
+}
+.cont {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+}
+.t li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 29px;
+    font-size: 45px;
+    border: 1px solid red;
+    padding: 2px 14px;
+    background: grey;
+}
+input.btns {
+    width: 95%;
+    height: 50px;
+    background: #f1dddd;
+    margin: 18px;
+}
+button.s {
+    margin: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+/*footer*/
+.bot {
+    padding: 20px 0;
+    background: black;
+}
+.foot {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+/*Media query*/
+/*Mobile device*/
+/*small/mobile device*/
+@media (min-width: 261px) and (max-width: 320px){
+
+.one {
+    text-align: left;
+    margin: 8px;
+}
+.two {
+    text-align: left;
+    margin: -38px 84px;
+}
+.three a {
+    color: #ff0068;
+}
+.fa.fa-facebook-square {
+    float: right;
+    margin: -31px 20px 0;
+    font-size: 24px;
+}
+nav {
+    padding: 0 4px;
+}
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    padding: 0;
+    font-size: 13px;
+}
+span.btn {
+    margin: 0px 70px;
+}
+.title {
+    text-align: center;
+    margin: -44px;
+    padding: 44px 0;
+}
+.title h1 {
+    font-size: 22px;
+    color: #c70e0efa;
+    padding: 0;
+    margin: -3px;
+}
+button.btn1 {
+    font-size: 10px;
+    padding: 7px 7px;
+    margin: 18px;
+    color: #fff;
+    background: red;
+}
+.icon1 h2 {
+    font-size: 27px;
+}
+.icon p {
+    text-align: justify;
+}
+.icon2 h2 {
+    font-size: 24px;
+}
+.icon3 h2 {
+    font-size: 31px;
+}
+.hint1 h1 {
+    font-size: 22px;
+    padding: 0px 13px;
+    margin-top: -72px;
+}
+.hint1 p {
+    text-align: justify;
+}
+h1.p1 {
+    text-align: center;
+    margin: 14px;
+    font-size: 20px;
+}
+.pic1 {
+    width: 93%;
+}
+.pic2 {
+    width: 100%;
+}
+.pic2::after {
+    left: -1px;
+   
+}
+.pp2 {
+    left: 4%;
+
+}
+h1.p1 {
+    text-align: center;
+    font-size: 21px;
+    margin: 7px;
+    margin-top: -34px;
+}
+.mail-title h3 {
+    font-size: 13px;
+    margin-top: -27px;
+    margin: -3px 0;
+    text-align: center;
+}
+input.button {
+    margin: 8px 75px;
+}
+.t li {
+    margin: 29px 16px;
+    font-size: 15px;
+    padding: 0;
+}
+input.btns {
+    width: 87%;
+}
+
+}
+/*tab device*/
+@media (min-width: 320.01px) and (max-width: 500px){
+	.one {
+    text-align: left;
+    margin: 10px 29px;
+}
+.two {
+    text-align: left;
+    margin: -43px 154px;
+}
+.fa.fa-facebook-square {
+    font-size: 30px;
+    float: right;
+    margin: -36px 33px;
+}
+nav ul li {
+    display: inline;
+    padding: 15px 15px;
+    font-size: 20px;
+    margin: 0 -17px;
+}
+.title{
+	padding: 0;
+}
+.btn1 {
+    margin-top: 2px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    background: green;
+}
+.fa.fa-thumbs-up {
+    margin: 11px 176px;
+}
+.icon1 h2 {
+    text-align: center;
+}
+.fa.fa-book {
+    margin: 8px 172px;
+}
+.icon2 h2{
+	text-align: center;
+}
+.fa.fa-comments {
+    margin: 9px 159px;
+}
+.icon3 h2{
+	text-align: center;
+}
+.pic1 {
+    width: 75%;
+    margin: 33px 66px;
+}
+.pic2 {
+    margin: 0px 69px;
+    padding: 0 12px;
+}
+.hint1 {
+    padding: 40px;
+    margin: -16px;
+}
+.w2 {
+    padding: 0 22px;
+    height: 267px;
+    margin: 0 95px 0 92px;
+}
+.w3 {
+    padding: 0 22px;
+    height: 267px;
+    margin: 0 95px 0 92px;
+}
+.w4 {
+    padding: 0 22px;
+    height: 267px;
+    margin: 0 95px 0 92px;
+}
+.w5 {
+    padding: 0 22px;
+    height: 267px;
+    margin: 0 95px 0 92px;
+}
+.send h4 {
+    text-align: justify;
+    line-height: 1;
+    font-size: 18px;
+}
+input.button {
+    margin: 3px 136px;
+}
+.t li {
+    margin: 22px;
+}
+}
+/*tab device*/
+@media (min-width: 500.01px) and (max-width:768px){
+.one {
+    text-align: right;
+    margin: 10px -8px;
+    padding: 0px 86px;
+}
+
+.two {
+    margin: 4px -59px;
+    padding: 5px;
+}
+.fa.fa-envelope {
+    margin: 8px 4px 0px -20px;
+    float: left;
+}
+.three {
+    margin: -45px 527px;
+    float: right;
+    padding: 5px 131px;
+}
+nav {
+    padding: 12px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 14px;
+}
+.title{
+	padding: 0;
+}
+.btn1 {
+    font-size: 19px;
+    margin-bottom: 22px;
+    background-color: green;
+}
+.fa.fa-thumbs-up {
+    font-size: 62px;
+    margin: 0 69px;
+}
+.icon1 h2 {
+    font-size: 21px;
+}
+.icon p {
+    text-align: justify;
+    margin: -2px;
+    padding: 6px 0;
+}
+.fa.fa-book {
+    font-size: 62px;
+    margin: 0 69px;
+}
+.icon2 h2 {
+    font-size: 19px;
+}
+.icon2 p {
+    text-align: justify;
+    margin: -2px;
+    padding: 6px 0;
+}
+.fa.fa-comments {
+    font-size: 62px;
+    margin: 0 69px;
+}
+.icon3 h2 {
+    font-size: 19px;
+    margin: 3px 29px;
+}
+.icon3 p {
+    text-align: justify;
+    margin: -2px;
+    padding: 6px 0;
+}
+.pic1::after {
+    content: "";
+    width: 24%;
+    top: 20px;
+  
+}
+.pp {
+    top: 31px;
+    left: 83%;
+
+}
+.gone{
+	height: 196px;
+}
+.pic2::after {
+    content: "";
+    width: 28%;
+    top: 16px;
+
+}
+.pp2 {
+    top: 23px;
+    left: -7%;
+
+}
+h1.p1 {
+    text-align: right;
+    margin: -4px;
+}
+.w6 {
+    height: 152px;
+}
+.fa.fa-paper-plane {
+    padding: 24px 53px;
+    font-size: 46px;
+}
+.w6 p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+.w1{
+	height: 152px;
+}
+.fa.fa-paper-plane {
+    padding: 24px 53px;
+    font-size: 46px;
+}
+.w1 p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+input.button {
+    margin: 6px 104px;
+}
+}
+
+
+/*laptop/desktop device*/
+@media (min-width: 768.01px) and (max-width: 1200px){
+
+
+
+
+
+
+
+	
+}
